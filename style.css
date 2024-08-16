@@ -1,0 +1,39 @@
+/*
+    Ctrl-click on any of these links to open them in your browser!
+    (Cmd-click if on mac)
+
+    w3 schools
+    https://www.w3schools.com/html/default.asp
+    https://www.w3schools.com/css/default.asp
+
+    🎲 CSS Diner
+        for learning about selectors and combinators
+        https://flukeout.github.io
+    🎲 Flexbox Froggy
+        for CSS flex
+        https://flexboxfroggy.com
+    🎲 CSS Grid Garden
+        for CSS Grid
+        https://cssgridgarden.com 
+
+    📚 Guide to flexbox
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    📚 Guide to grid
+        https://css-tricks.com/snippets/css/complete-guide-grid/
+    📚 Video about CSS Position
+        https://www.youtube.com/watch?v=6-LwsTY22L8
+*/
+
+button {
+    background-color: red; 
+    width: 200px;
+}
+
+#green {
+    background-color: green;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+}

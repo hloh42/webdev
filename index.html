@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+
+KEYBOARD SHORTCUTS
+
+Ctrl /                              comment
+Ctrl Enter                          new line
+Ctrl C,V (without highlighting)     copy line down
+Alt click                           place multiple cursors
+Double-click on word                highlight the word
+Ctrl D                              place another cursor at next match
+
+Ctrl left/right                     jump by word
+Shift left/right                    highlight while moving cursor
+Ctrl Shift left/right               both above
+
+Home/End                            move to beginning/end of line
+Shift Alt W
+
+SNIPPETS
+
+!                   boilerplate HTML
+(tagname)           element
+#abc                <div id="abc"></div>
+.xyz                <div class="xyz"></div>
+nav#abc.xyz         <nav id="abc" class="xyz"></nav>
+
+    ul = unordered list
+    ol = ordered list
+    li = list item
+
+    https://picsum.photos/seed/1289374190827/50/50
+
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="doug.js" defer></script>
+<!-- 
+    3 places you can write CSS
+        1. Inline CSS   (messy, avoid this)
+        2. Style element (still a little messy, avoid this too)
+        3. Separate file (try to do this)
+
+    CSS styles look like this: 
+                property: value;
+                property: value;
+                property: value;
+                property: value;
+
+    CSS declarations look like this:
+        selector {
+            property: value;
+            property: value;
+            property: value;
+            property: value;
+        }
+
+    git init
+    git add .
+    git commit -m "your message"
+    git push origin branchname
+
+            if your local repo isn't linked to the github repo, you need to run
+                git remote add origin github-url-goes-here
+ -->
+<body>
+    <div id="HaoYi">
+        <ul>
+            <li>
+                <button style="background-color: yellow; width: 200px;">
+                    <img src="https://picsum.photos/seed/1289374190827/50/50" alt="">
+                </button>
+            </li>
+            <li>
+                <button id="green" class="big">
+                    <img src="https://picsum.photos/seed/1289374190827/50/50" alt="">
+                </button>
+            </li>
+            <li>
+                <button class="big">
+                    <img src="https://picsum.photos/seed/1289374190827/50/50" alt="">
+                </button>
+            </li>
+        </ul>
+    <div id="doug"></div>
+</body>
+</html>
